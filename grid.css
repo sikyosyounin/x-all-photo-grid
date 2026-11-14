@@ -1,0 +1,13 @@
+[data-xapg-hidden="true"] { display: none !important; }
+.xapg-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 3px !important;
+  width: 100% !important;
+  margin-block: 8px !important;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.xapg-grid > a { display: block; position: relative; min-width: 0; aspect-ratio: 1; overflow: hidden; background: #8882; }
+.xapg-grid > a > img { display: block; width: 100% !important; height: 100% !important; object-fit: contain !important; }
+.xapg-grid > a > span { position: absolute; left: 3px; bottom: 3px; padding: 1px 4px; border-radius: 3px; background: #000a; color: #fff; font: 11px/1.4 sans-serif; pointer-events: none; }

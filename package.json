@@ -1,0 +1,10 @@
+{
+  "name": "x-all-photo-grid",
+  "version": "0.2.1",
+  "private": true,
+  "description": "An unofficial numbered thumbnail grid for X photo posts, intended for XColumn.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --check bridge.js && node --check content.js && node tests/grid.test.cjs"
+  }
+}
